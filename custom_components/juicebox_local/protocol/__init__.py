@@ -5,7 +5,6 @@ from .message import (
     JuiceBoxCommand,
     JuiceBoxDebugMessage,
     JuiceBoxEncryptedMessage,
-    JuiceBoxMessage,
     JuiceBoxStatusMessage,
     juicebox_message_from_bytes,
 )
@@ -15,7 +14,6 @@ __all__ = [
     "JuiceBoxDebugMessage",
     "JuiceBoxEncryptedMessage",
     "JuiceBoxInvalidMessageFormat",
-    "JuiceBoxMessage",
     "JuiceBoxProtocolError",
     "JuiceBoxStatusMessage",
     "juicebox_message_from_bytes",
