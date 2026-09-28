@@ -1,0 +1,21 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Set up JuiceBox Local",
+        "description": "Configure the JuiceBox whose legacy UDP hostname will be rewritten to Home Assistant. The MVP does not change UDPC settings.",
+        "data": {
+          "host": "JuiceBox IPv4 address",
+          "listen_port": "UDP listen port"
+        }
+      }
+    },
+    "error": {
+      "invalid_ipv4": "Enter a valid IPv4 address"
+    },
+    "abort": {
+      "single_instance_allowed": "The MVP supports one JuiceBox listener per Home Assistant instance",
+      "already_configured": "This JuiceBox is already configured"
+    }
+  }
+}
